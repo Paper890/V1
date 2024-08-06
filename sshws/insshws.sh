@@ -1,24 +1,5 @@
 #!/bin/bash
-# Proxy For WS
-# ==========================================
-# Color
-RED='\033[0;31m'
-NC='\033[0m'
-GREEN='\033[0;32m'
-ORANGE='\033[0;33m'
-BLUE='\033[0;34m'
-PURPLE='\033[0;35m'
-CYAN='\033[0;36m'
-LIGHT='\033[0;37m'
-# ==========================================
-clear
-red='\e[1;31m'
-green='\e[0;32m'
-yell='\e[1;33m'
-NC='\e[0m'
-echo "Installing SSH Websocket by SAN" | lolcat
-echo "Progress..." | lolcat
-sleep 3
+echo "Installing SSH Websocket by SAN"
 cd
 
 wget -O /usr/local/bin/ws-dropbear https://raw.githubusercontent.com/Paper890/V1/main/sshws/dropbear-ws.py
