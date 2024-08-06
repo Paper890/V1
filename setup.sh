@@ -73,7 +73,7 @@ sleep 0.5
 clear
 wget https://raw.githubusercontent.com/Paper890/V1/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/Paper890/V1/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
-
+wget https://raw.githubusercontent.com/Paper890/V1/main/sshws/nontls.sh && chmod +x nontls.sh && ./nontls.sh
 #Instal Xray
 echo -e "\e[33m-----------------------------------\033[0m"
 echo -e "$BGreen          Install XRAY              $NC"
